@@ -1,0 +1,108 @@
+
+body {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0;
+	background-image: url("images/romario.png");
+}
+/*
+colors: https://www.color-hex.com/color-palette/27134
+*/
+
+#title {
+	height: 10%;
+	width: 100%;
+	font-family: 'Calistoga', cursive;
+	background-color: 	#9c2f2f;
+	color: 	#dbba33;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3vmin;
+}
+
+#content {
+	height: 90%;
+	width: 100%;
+	background-color: #511f16;
+	display: block;
+}
+
+.fill {
+	width: 100%;
+	height: 100%;
+}
+
+.row {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.row2 {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.column {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	color:#b6562a;
+}
+
+.flex {
+	display: flex;
+}
+
+.box {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contain-image {
+	max-width: 90%;
+	max-height: 90%;
+}
+
+span {
+	padding: 20px;
+	font-size: 3vmin;
+}
+
+#title:hover {
+	filter: hue-rotate(30deg);
+	cursor: pointer;
+}
+
+.last-supper {
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.last-supper:hover {
+	transform: scale(1.05);
+	filter: brightness(135%);
+	border-radius: 0px;
+}
+
+@media all and (max-width: 600px) {
+  .row {
+	  width: 100%;
+	  height: 50%;
+	  display: block;
+  }
+  .column {
+	  width: 100%;
+	  height: 50%;
+  }
+}
